@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+  margin: 0;
+  color: black;
+  font-family: "Arial", "Helvetica Neue", "sans-serif";
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* 
+body {
+  background-color: white !important;
+  margin: 0;
+  color: white;
+  font-family: "Arial", "Helvetica Neue", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+  font-size: 16px;
+} */
