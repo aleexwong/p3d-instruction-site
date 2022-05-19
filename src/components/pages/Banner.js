@@ -26,14 +26,11 @@ Banner.Question = function BannerHeader({ children, ...restProps }) {
   return (
     <Question onClick={() => setOpen((open) => !open)} {...restProps}>
       {children}
-      {open ? <h3>^</h3> : <h3>+</h3>}
+      {open ? <h3>-</h3> : <h3>+</h3>}
     </Question>
   );
 };
 Banner.Text = function BannerText({ children, ...restProps }) {
   const { open } = React.useContext(QuestionContext);
-  // console.log(QuestionContext);
-  // console.log(restProps);
-  // console.log(children);
   return open ? <Text {...restProps}>{children}</Text> : null;
 };

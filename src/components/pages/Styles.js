@@ -7,7 +7,7 @@ export const Container = styled.div`
 export const Entity = styled.div`
   color: #070707;
   border: 1px solid #070707;
-  max-width: 700px;
+  max-width: 1200px;
   width: 99%;
   margin-bottom: 10px;
   margin: auto;
@@ -17,7 +17,7 @@ export const Entity = styled.div`
 `;
 export const Inner = styled.div`
   padding: 75px 40px;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   flex-direction: column;
   display: flex;
@@ -52,7 +52,7 @@ export const Text = styled.p`
 `;
 export const Header = styled.h1`
   color: #070707;
-  line-height: 4;
+  line-height: 1;
   margin-top: 0 !important;
   font-size: 45px;
   margin-bottom: 9px;
