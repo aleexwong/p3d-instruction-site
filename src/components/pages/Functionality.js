@@ -2,7 +2,6 @@ import React from 'react';
 
 import questions from '../../instructions/InstructionFunctionality';
 import Banner from "../pages/Banner.js";
-import "./ViewMode.css";
 
 const Functionality = () => {
     return (
