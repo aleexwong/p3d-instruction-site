@@ -2,7 +2,7 @@ import React from 'react';
 
 import questions from '../../instructions/InstructionViewModes';
 import Banner from "../pages/Banner.js";
-import "./ViewMode.css";
+import "./Instructions.css";
 
 const ViewModes = () => {
     return (
@@ -14,10 +14,10 @@ const ViewModes = () => {
 
                     <Banner.Text>{question.answer}
                         <br></br>
-                        <img src={question.images2} width="" height="" alt="" />
-                        <img src={question.images3} width="" height="" alt="" />
-                        <img src={question.images4} width="" height="" alt="" />
-                        <img src={question.images5} width="" height="" alt="" />
+                        <img class='topicImage' src={question.images2} width="" height="" alt="" />
+                        <img class="topicImage" src={question.images3} width="" height="" alt="" />
+                        <img class="topicImage" src={question.images4} width="" height="" alt="" />
+                        <img class="topicImage" src={question.images5} width="" height="" alt="" />
                     </Banner.Text>
                 </Banner.Entity>
             ))}
