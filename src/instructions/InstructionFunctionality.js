@@ -17,9 +17,7 @@ export const questions = [
     {
         id: 2,
         question: "Moving Objects",
-        answer: "To move a product around the floor layout - simply left-click and drag the selected item to the area that it’s intended to be placed. ",
- 
-        
+        answer: "To move a product around the floor layout - simply left-click and drag the selected item to the area that it’s intended to be placed. ",    
     },
     {
         id: 3,
@@ -36,7 +34,6 @@ export const questions = [
         images1: IMAGES.changeMaterialsMode,
         images2: IMAGES.changeWood1,
         images3: IMAGES.changeWood2
-        
     },
 
     {
@@ -44,8 +41,6 @@ export const questions = [
         question: "Deleting Objects",
         answer: "Users can quickly delete unwanted objects in their floorplan by selecting the item and clicking the following button in their item toolbar:",
         images1: IMAGES.deleteMode,
- 
-        
     },
 
     {
@@ -55,15 +50,12 @@ export const questions = [
         images1: IMAGES.duplicateItemsMode,
         images2: IMAGES.duplicatedItem1,
         images3: IMAGES.duplicatedItem2
-        
     },
 
     {
         id: 7,
         question: "Object Dimension Manipulation",
         answer: "Users can make simple adjustments to the dimensions of their furniture objects easily with their scroll wheel.  Length adjustments can be made by selecting the desired object and holding SHIFT while scrolling upwards or downwards to increase and decrease the object size. Width adjustments can be done similarly only holding the CTRL button rather than SHIFT. \n\nControls:\nLength – Shift + Scroll\nWidth – CTRL + Scroll",
- 
-        
     },
 
     {
@@ -71,7 +63,6 @@ export const questions = [
         question: "Adding Floor Products",
         answer: "Click on the floor plane where you would like to place a new product. Upon selection – a floor products menu will appear at the bottom of the screen (pictured below). In the event your menu was already open – the page will switch to the appropriate menu.\nThere, you can select the floor product you wish to place.\nOnce a product has been selected - it will spawn itself onto the floor where it can be moved and manipulated. See object manipulation for further details.\n",
         images2: IMAGES.addingObjects
-    
     },
 
     {
@@ -79,7 +70,6 @@ export const questions = [
         question: "Adding Wall  Products",
         answer: "Click on the floor plane where you would like to place a new product. Upon selection – a wall products menu will appear at the bottom of the screen (pictured below). In the event your menu was already open – the page will switch to the appropriate menu. \nThere, you can select the wall product you wish to place.\nOnce a product has been selected - it will spawn itself onto the floor where it can be moved and manipulated. See object manipulation for further details.\n",
         images2: IMAGES.addingWalls
-    
     },
 
     {
@@ -106,11 +96,7 @@ export const questions = [
         images1: IMAGES.darkMode,
         images2: IMAGES.darkModeLayout1,
         images3: IMAGES.darkModeLayout2,
-    },
-
-
-
-    
+    },   
 ]
 
 export default questions;

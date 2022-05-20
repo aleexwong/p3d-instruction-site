@@ -236,9 +236,8 @@ const HomePage = () => (
       <h2>Anything Missing? </h2>
       <p>If anything is missing within the documentation or you find any part of this instruction set confusing – PictureThis3D can be contacted <a href="https://picturethis3d.com/contact/">here</a>. </p>
     </div>
+    
     </div>
-
-
   </React.Fragment>
 );
 
