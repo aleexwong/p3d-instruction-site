@@ -2,6 +2,7 @@
     margin: auto;
     flex-direction: column;
     display: flex;
+    text-align: left;
 }
 
 
