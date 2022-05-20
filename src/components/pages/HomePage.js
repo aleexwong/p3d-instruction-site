@@ -45,7 +45,7 @@ const style = {
   top_down_image:{
     width: '400px',
     height: 'auto',
-    alignItems: 'start'
+    alignItems: 'center'
   },
   couch:{
     width: '100%',
@@ -60,12 +60,13 @@ const style = {
 const HomePage = () => (
   <React.Fragment>
     <div>
+      <br/>
     <div className="introduction">
-      <h1>Getting Started With Parzona</h1>
+      <h2>Getting Started With Parzona</h2>
       <p>PictureThis3D’s Parzona is a 3D visualization tool geared towards showcasing products in a simulated environment. This page is an overview of the instructional documentation of this product.  </p>
     </div>
     <div className="introduction">
-      <h2>Views and Movement Controls </h2>
+      <h3>Views and Movement Controls </h3>
       <p>Entering into the first-person view can be done simply by selecting the footsteps icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
     </div>
     <div style={style.realign}> <img src={footsteps}></img></div>
@@ -137,6 +138,7 @@ const HomePage = () => (
       <p>There, you can select the wall product you wish to place. </p>
       <img src={wallProduct}></img>
       <p>Once a product has been selected - it will spawn itself onto the floor where it can be moved and manipulated. See object manipulation for further details. </p>
+      <br/>
       <h2>Object Manipulation </h2>
       <h3>Selecting Objects </h3>
       <p>Selecting objects is a simple and effective tool for targeting items that users wish to be manipulated. To select an object on the floor plan – simply left-click the object. Once selected – the item will be outlined in purple <i>(pictured below)</i>. </p>
