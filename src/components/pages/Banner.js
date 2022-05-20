@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Header, Entity, Inner, Question, Text } from "./Styles.js";
+import { Container, Header, Entity, Inner, Question, Text, Footer } from "./Styles.js";
 
 const QuestionContext = React.createContext();
 export default function Banner({ children, ...restProps }) {
@@ -11,6 +11,9 @@ export default function Banner({ children, ...restProps }) {
 }
 Banner.Header = function BannerHeader({ children, ...restProps }) {
   return <Header {...restProps}> {children}</Header>;
+};
+Banner.Footer = function BannerFooter({ children, ...restProps }) {
+  return <Footer {...restProps}> {children}</Footer>;
 };
 Banner.Entity = function BannerEntity({ children, ...restProps }) {
   const [open, setOpen] = useState(false);

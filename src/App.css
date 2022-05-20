@@ -10,6 +10,12 @@
 .introduction h1{
   text-align: center;
 }
-.footer-logo {
-  width: 200px;
+.footer {
+  font-size: 25px;
 }
+.footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+} 

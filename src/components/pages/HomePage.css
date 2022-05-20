@@ -1,0 +1,10 @@
+.introduction{
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.pagesButtons {
+    margin-right: 20px;
+}
