@@ -35,35 +35,25 @@ const HomePage = () => (
 
       <br></br>
     </div>
-
-
     <div className='pagesButtons'>
       <Link className="d-grid gap-2" to="/Movement">
         <Button variant="primary" size="lg">
           Movement
         </Button>
       </Link>
-
-
       <br></br>
-
       <Link className="d-grid gap-2" to="/ViewMode">
         <Button variant="primary" size="lg">
           View Mode
         </Button>
       </Link>
-
-
       <br></br>
-
       <Link className="d-grid gap-2" to="/Functionality">
         <Button variant="primary" size="lg">
           Functionality
         </Button>
       </Link>
     </div>
-
-
   </React.Fragment>
 );
 

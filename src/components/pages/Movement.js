@@ -2,7 +2,7 @@ import React from 'react';
 
 import questions from '../../instructions/InstructionMovement.js';
 import Banner from "../pages/Banner.js";
-import './Movement.css'
+import './Instructions.css'
 
 const Movement = () => {
     return (
