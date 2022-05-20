@@ -152,7 +152,7 @@ const HomePage = () => (
         <img src={rotateObject2}></img>
         <img src={rotateObject3}></img>
       </div>
-      <h2>Swapping Materials</h2>
+      <h3>Swapping Materials</h3>
       <p>Certain floor and wall products have additional customizability. These items include – flooring, wallpaper, windows, doors, couches, and baseboards.  </p>
       <p>Items with this additional functionality are referred to as to having <b>swappable material</b> and can be recognized when the following icon appears on the left side of the screen when the object is selected: </p>
     </div>
