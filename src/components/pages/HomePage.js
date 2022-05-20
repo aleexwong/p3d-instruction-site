@@ -45,11 +45,14 @@ const style = {
   top_down_image:{
     width: '400px',
     height: 'auto',
-    alignItems: 'center'
+    alignItems: 'start'
   },
   couch:{
     width: '100%',
     height: 'auto'
+  },
+  realign:{
+    alignItems: 'center'
   },
 }
 
@@ -65,7 +68,7 @@ const HomePage = () => (
       <h2>Views and Movement Controls </h2>
       <p>Entering into the first-person view can be done simply by selecting the footsteps icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
     </div>
-    <div> <img src={footsteps} style={style.realign}></img></div>
+    <div style={style.realign}> <img src={footsteps}></img></div>
     <div className="introduction">
       <p>Upon selection – the user will be placed on the floor in a free-roam state. In this state the users can travel anywhere along the floor of the 3D layout. The movement controls in this state are stated in the following section. </p>
       <h3>Free Roam State</h3>
