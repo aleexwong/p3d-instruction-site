@@ -1,6 +1,6 @@
 import React from 'react';
 
-import questions from '../../instructions/InstructionMovement.js';
+import questions from '../../instructions/InstructionMovement';
 import Banner from "../pages/Banner.js";
 import './Instructions.css'
 
@@ -10,8 +10,8 @@ const Movement = () => {
             <Banner.Header>Movement</Banner.Header>
             {questions.map((question) => (
                 <Banner.Entity key={question.id}>
-                    <Banner.Question>{question.question}</Banner.Question>
-                    <Banner.Text><div className='question'>{question.answer}</div>
+                    <Banner.Question>{question.question}<div className='question'></div></Banner.Question>
+                    <Banner.Text>{question.answer}
                         <br></br>
                         <img src={question.images1} width="" height="" alt="" />
                         <img class='topicImage' src={question.images2} width="" height="" alt="" />
