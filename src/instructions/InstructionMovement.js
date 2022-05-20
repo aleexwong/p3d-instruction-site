@@ -10,9 +10,9 @@ export const questions = [
     },
     {
         id: 2,
-        question: "Movement - Panning",
+        question: "Panning",
         answer: "Right click hold and drag in direction of where the software should be",
-        images1: IMAGES.addingExtraCouch1
+        images2: IMAGES.addingExtraCouch1
     },
 ]
 
