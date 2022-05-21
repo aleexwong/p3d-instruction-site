@@ -67,9 +67,9 @@ const HomePage = () => (
     </div>
     <div className="introduction">
       <h3>Views and Movement Controls </h3>
-      <p>Entering into the first-person view can be done simply by selecting the footsteps icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
+      <p>Entering into the first-person view can be done simply by selecting the eye icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
     </div>
-    <div style={style.realign}> <img src={footsteps}></img></div>
+    <div style={style.realign}> <img src={eyecon}></img></div>
     <div className="introduction">
       <p>Upon selection – the user will be placed on the floor in a free-roam state. In this state the users can travel anywhere along the floor of the 3D layout. The movement controls in this state are stated in the following section. </p>
       <h3>Free Roam State</h3>
@@ -82,10 +82,10 @@ const HomePage = () => (
       </p>
 
       <h2>Orbital View </h2>
-      <p>Entering the orbital view can be done simply by selecting the eye icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
+      <p>Entering the orbital view can be done simply by selecting the footsteps icon (pictured below) in the view toolbar menu located at the top right corner of the screen. </p>
     </div>
     <div>
-      <img src={eyecon}></img>
+      <img src={footsteps}></img>
     </div>
     <div className="introduction">
       <p>Upon selection – the user will have an orbital view of the entire floor layout. In this state the users can rotate and pan anywhere around 3D layout. The controls in this state are stated in the following section. </p>
